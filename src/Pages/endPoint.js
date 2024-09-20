@@ -1,0 +1,15 @@
+export const url='http://127.0.0.1:8000/api'
+export const login='login'
+export const getRepo=`repo/get-repository`
+export const deleteRepo=`repo/delete-repository`
+export const create_Repo=`repo/create-repository`
+export const getFile=`file/get-file`
+export const createFile=`file/create-file`
+export const editFile=`file/update-file`
+export const chickIn=`file/check-in`
+export const chickOut=`file/check-out`
+export const downloadFile=`file/download-file`
+export const deleteFile=`file/delete-file`
+export const getUser=`get-user`
+export const getUserRepo=`repo/get-users-repo`
+export const getReport=`repo/get-report`

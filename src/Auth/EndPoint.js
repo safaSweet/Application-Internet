@@ -1,0 +1,5 @@
+export const url='http://127.0.0.1:8000'
+export const login='api/login'
+export const logout='api/logout'
+export const register='api/register'
+export const verify='api/verify'

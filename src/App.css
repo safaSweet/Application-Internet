@@ -1,0 +1,132 @@
+:root{
+  --blue:#44b3aa,
+  --red:#912c30,
+  --dark:#315555
+}
+
+body{margin-top:20px;
+  background:#EDF1F9;
+  }
+  .avatar {
+      width: 3rem;
+      height: 3rem;
+      font-size: .765625rem;
+  }
+  a {
+  text-decoration:none;    
+  }  
+  .icon{    position: fixed;
+    /* left: 0; */
+    bottom: 50px;
+    right: 40px;
+    /* width: 116px; */
+    font-size: 60px;
+    color:cadetblue;
+  
+  }
+  .icon:hover{
+    cursor: pointer;
+  }
+  .report{   
+     position: fixed;
+    top: 70px;
+    right: 40px;
+    font-size: 50px;
+    color:cadetblue;
+  
+  }
+  .report:hover{
+    cursor: pointer;
+  }
+  .chick_in{
+    position: fixed;
+    bottom: 20px;
+    right: 390px;
+    border-radius: 30px;
+    color:cadetblue;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+  .chick_in:hover{
+    cursor: pointer;
+  }
+  .chick_out{
+    position: fixed;
+    bottom: 20px;
+    right: 490px;
+    color:cadetblue;
+}
+  .chick_out:hover{
+    cursor: pointer;
+  }
+  body{margin-top:20px;}
+.bg-light-primary {
+    background-color: #f9fbff!important;
+}
+.pb-6, .py-6 {
+    padding-bottom: 3.75rem!important;
+}
+.pt-6, .py-6 {
+    padding-top: 3.75rem!important;
+}
+.hover-scale, .hover-scale:hover {
+    transition: transform .2s ease-in;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .4rem;
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+    
+}
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+.nav{
+  width: 50%;
+  padding: 3px;
+  background-color: #fff;
+  height: 450px;
+}
+.sidebar .nav-link {
+  font-weight: 500;
+  color: var(--bs-dark);
+}
+.sidebar .nav-link:hover {
+  background: var(--bs-light);
+  color: var(--bs-primary);
+}
+.error{
+  /*//bg-dangerw-50p-1roundedmt-3*/background-color:rgb(248, 152, 152);
+  width: 50%;
+  padding: 1%;
+  color: white;
+  margin-top: 10px;
+  border-radius:4px ;
+  -webkit-border-radius:4px ;
+  -moz-border-radius:4px ;
+  -ms-border-radius:4px ;
+  -o-border-radius:4px ;
+}
+.card_repo{ 
+  width: 70%;
+  padding: 15px;
+  margin-bottom: 13px;
+  cursor: pointer;}
+ div ul section{
+  /* margin-right: "15px"; */
+  padding: "15px";
+  background-color: "#f8f9fa";
+  border-radius: "10px";
+  min-height: "480px"
+ }
